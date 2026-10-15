@@ -1,13 +1,13 @@
 # Original focused-review verification
 
-This document preserves evidence for the original 51 focused-review records. For restored records, see [recovery verification](recovery-verification.md). For canonical stable IDs, use the [crosswalk](../data/reconciliation-crosswalk.csv); the arXiv-based IDs below remain aliases.
+Display sorting is described in [the ordering notes](ordering.md); source dates below remain unchanged evidence fields.
+
+This document preserves evidence for the original 51 focused-review records. For restored records, see [recovery verification](recovery-verification.md). For canonical stable IDs, use the [crosswalk](../data/reconciliation-crosswalk.csv). Aliases remain in the data files.
 
 Checked on 2026-10-15. This file records the evidence supporting the catalogue; it is not a comparative performance ranking. Detailed date and version caveats are retained rather than guessed.
 
 ## SteerCast: Retrieval-Based Latent Steering for Decoder-Only Time Series Forecasting
 
-- Record: `arxiv-2610.11229`
-- Role: core
 - Known public year: 2026; earliest verified date: 2026-10-08
 - Date qualification: arXiv v1 submission date, 2026-10-08 04:30:54 UTC; earlier public venue posting date not established
 - Venue: NeurIPS 2026 (accepted poster)
@@ -24,8 +24,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## Retrieval Is Not Enough: Refreshing Memory for Frozen Time-Series Forecasters
 
-- Record: `arxiv-2610.07834`
-- Role: core
 - Known public year: 2026; earliest verified date: 2026-10-06
 - Date qualification: Earliest date established in this review; earlier public versions may exist.
 - Venue: preprint
@@ -39,8 +37,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## GRAM: Correcting Frozen Time-Series Foundation Models via Graph-Retrieved Amplitude Memory
 
-- Record: `arxiv-2610.04827`
-- Role: core
 - Known public year: 2026; earliest verified date: 2026-10-04
 - Date qualification: arXiv v1 submission date, 2026-10-04 00:20:36 UTC
 - Venue: arXiv preprint; no accepted conference/journal venue verified as of 2026-10-15
@@ -56,8 +52,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## TIMBRE: Teaching Time Series Forecasters to Read, Remember, and Reconcile
 
-- Record: `arxiv-2610.04795`
-- Role: core
 - Known public year: 2026; earliest verified date: 2026-10-03
 - Date qualification: arXiv v1 submission date, 2026-10-03 22:46:20 UTC
 - Venue: arXiv preprint; submitted to ICASSP 2027 according to author website, not accepted
@@ -74,8 +68,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## SEER: Self-Evolving Event Reasoning and Retrieval for Time Series Forecasting
 
-- Record: `arxiv-2610.04109`
-- Role: core
 - Known public year: 2026; earliest verified date: 2026-10-02
 - Date qualification: arXiv v1 submission date, 2026-10-02 22:30:10 UTC
 - Venue: arXiv preprint; no accepted conference/journal venue verified as of 2026-10-15
@@ -91,8 +83,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## Dual-Context Analog Retrieval for Time Series Forecasting
 
-- Record: `arxiv-2610.03491`
-- Role: core
 - Known public year: 2026; earliest verified date: 2026-10-02
 - Date qualification: Earliest date established in this review; earlier public versions may exist.
 - Venue: preprint
@@ -107,8 +97,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## Which Histories Matter for Time Series Forecasting? Learning Predictive Relevance with Future Supervision
 
-- Record: `arxiv-2608.23221`
-- Role: related; retrieval_learning_and_evaluation
 - Known public year: 2026; earliest verified date: 2026-08-24
 - Date qualification: Earliest date established in this review; earlier public versions may exist.
 - Venue: preprint
@@ -124,8 +112,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## Model-agnostic Retrieval-Augmented Extended Forecasting for time series
 
-- Record: `arxiv-2608.14054`
-- Role: core
 - Known public year: 2026; earliest verified date: 2026-08-14
 - Date qualification: Earliest date established in this review; earlier public versions may exist.
 - Venue: preprint
@@ -140,8 +126,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## KReF: Training-Free Retrieval for Long-Term Time-Series Forecasting and Predictive Uncertainty
 
-- Record: `arxiv-2608.06748`
-- Role: related; standalone_retrieval_forecaster
 - Known public year: 2026; earliest verified date: 2026-08-07
 - Date qualification: Earliest date established in this review; earlier public versions may exist.
 - Venue: preprint
@@ -156,8 +140,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## TS-RAG: Retrieval Augmented Generation for Time Series Forecasting
 
-- Record: `arxiv-2608.06223`
-- Role: core
 - Known public year: 2026; earliest verified date: 2026-08-06
 - Date qualification: Earliest date established in this review; earlier public versions may exist.
 - Venue: preprint
@@ -171,8 +153,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## Align-RAG: Alignment Is All You Need for TSFM In-Context Learning
 
-- Record: `arxiv-2608.05571`
-- Role: core
 - Known public year: 2026; earliest verified date: 2026-08-06
 - Date qualification: Earliest date established in this review; earlier public versions may exist.
 - Venue: preprint
@@ -187,8 +167,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## When Does Retrieval Help Time-Series Forecasting?
 
-- Record: `arxiv-2609.20193`
-- Role: related; evaluation
 - Known public year: 2026; earliest verified date: 2026-07-29
 - Date qualification: 按arXiv官方submission history为2026-07-29；编号却是2609.20193，日期与编号月份不一致，原样记录且应提示读者。
 - Venue: preprint
@@ -205,8 +183,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## ReDiTT: Retrieval Augmented Conditional Diffusion Transformers for Asynchronous Time Series
 
-- Record: `arxiv-2607.12391`
-- Role: related; asynchronous_event_prediction
 - Known public year: 2026; earliest verified date: 2026-07-14
 - Date qualification: Earliest date established in this review; earlier public versions may exist.
 - Venue: TMLR 2026
@@ -222,8 +198,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## Semantics-Enhanced Retrieval-Augmented Time Series Forecasting
 
-- Record: `arxiv-2606.14941`
-- Role: core
 - Known public year: 2026; earliest verified date: 2026-06-12
 - Date qualification: arXiv v1 submission date; earliest verified authored preprint in this check, not a claim excluding earlier anonymous public submissions
 - Venue: ICML 2026 Workshop on Forecasting as a New Frontier of Intelligence (AI Forecasting Workshop)
@@ -238,8 +212,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## Stationarity-Aware Retrieval-Augmented Time Series Forecasting
 
-- Record: `arxiv-2606.04135`
-- Role: core
 - Known public year: 2026; earliest verified date: 2026-06-02
 - Date qualification: arXiv v1 submission date; earliest verified authored preprint in this check, not a claim excluding earlier anonymous public submissions
 - Venue: KDD 2026, Research Track; proceedings V.2, pp. 6875–6886
@@ -255,8 +227,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## ROAR: Retrieval Opportunity-Aware Refinement for Zero-Shot Time Series Forecasting
 
-- Record: `arxiv-2605.24911`
-- Role: core
 - Known public year: 2026; earliest verified date: 2026-05-24
 - Date qualification: 同一arXiv记录v1为Factorize to Generalize: Retrieval-Guided Invariant-Dynamic Decomposition for Time Series Forecasting (RIDDE)；ROAR标题及当前方法为v2，2026-10-08。应计为一个版本链而非两篇独立记录。
 - Venue: preprint
@@ -272,8 +242,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## Channel-wise Retrieval for Multivariate Time Series Forecasting
 
-- Record: `arxiv-2604.05543`
-- Role: core
 - Known public year: 2026; earliest verified date: 2026-04-07
 - Date qualification: Earliest verified arXiv v1 submission date; IEEE Xplore added the article on 2026-04-21.
 - Venue: ICASSP 2026 (Oral)
@@ -288,8 +256,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## Not All Retrievals are Useful: Cross-Attention for Input-Aware RAG in Time Series Forecasting
 
-- Record: `arxiv-2603.14709`
-- Role: core
 - Known public year: 2026; earliest verified date: 2026-03-16
 - Date qualification: Earliest date established in this review; earlier public versions may exist.
 - Venue: KDD MILETS Workshop 2026 (oral presentation)
@@ -304,8 +270,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## Retrieval-Augmented Generation with Covariate Time Series
 
-- Record: `arxiv-2603.04951`
-- Role: core
 - Known public year: 2026; earliest verified date: 2026-03-05
 - Date qualification: Earliest date established in this review; earlier public versions may exist.
 - Venue: preprint
@@ -320,8 +284,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## TS-Memory: Plug-and-Play Memory for Time Series Foundation Models
 
-- Record: `arxiv-2602.11550`
-- Role: related; training_time_retrieval
 - Known public year: 2026; earliest verified date: 2026-02-12
 - Date qualification: Earliest verified arXiv v1 submission date.
 - Venue: KDD 2026 (Research Track)
@@ -338,8 +300,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## MemCast: Memory-Driven Time Series Forecasting with Experience-Conditioned Reasoning
 
-- Record: `arxiv-2602.03164`
-- Role: core
 - Known public year: 2026; earliest verified date: 2026-02-03
 - Date qualification: Earliest verified arXiv v1 submission date.
 - Venue: ICML 2026
@@ -355,8 +315,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## VARDiff: Vision-augmented retrieval-guided diffusion for stock forecasting
 
-- Record: `vardiff`
-- Role: provisional
 - Known public year: 2026; earliest verified date: not established
 - Date qualification: Exact earliest posting date has not been established.
 - Venue: Information Sciences 2026
@@ -371,8 +329,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## TimeMRA: LLM-Empowered Time Series Forecasting via Multi-Scale Retrieval-Augmented Representations
 
-- Record: `timemra`
-- Role: related; same_input_semantic_attention
 - Known public year: 2026; earliest verified date: not established
 - Date qualification: 2026；未能确认最早公开日。PMLR卷306正式出版日为2026-09-29，会议日期2026-07-06至11；不能将出版日自动当作首次公开日。OpenReview正文和API当前无法读取日期。
 - Venue: ICML 2026 (PMLR 306:109951–109968)
@@ -389,8 +345,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## TabPFN-TSRA: Retrieval-Augmented TabPFN for Time-Series Forecasting
 
-- Record: `tabpfn-tsra`
-- Role: core
 - Known public year: 2026; earliest verified date: not established
 - Date qualification: Exact initial publication day could not be verified. Do not substitute search-engine relative dates. Public workshop record is 2026.
 - Venue: 2nd ICML Workshop on Foundation Models for Structured Data (FMSD), 2026
@@ -406,8 +360,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## Spectral Retrieval-Augmented Time-Series Forecasting
 
-- Record: `arxiv-2606.19412`
-- Role: core
 - Known public year: 2026; earliest verified date: not established
 - Date qualification: arXiv v1 is verified as 2026-06-17, but an earlier anonymous ICLR 2026 OpenReview manuscript exists. Its exact first-public date and decision could not be verified; do not label the arXiv date as absolute first publication.
 - Venue: arXiv preprint; earlier ICLR 2026 submission exists, acceptance unverified
@@ -422,8 +374,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## Retrieve the Right Signal: Decomposition-Guided Retrieval-Augmented Forecasting for Financial Markets
 
-- Record: `retrieve-the-right-signal`
-- Role: pending
 - Known public year: 2026; earliest verified date: not established
 - Date qualification: Exact earliest posting date has not been established.
 - Venue: CIKM 2026
@@ -437,8 +387,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## Retrieval Mechanisms Surpass Long-Context Scaling in Time Series Forecasting
 
-- Record: `arxiv-2605.08217`
-- Role: related; evaluation
 - Known public year: 2026; earliest verified date: not established
 - Date qualification: Exact earliest public date not verified. Author CV labels the project February 2026; the official workshop accepted list confirms a pre-arXiv workshop paper. arXiv v1 was submitted 2026-05-06 12:15:05 UTC. Do not label May 6 the first public date without this qualification.
 - Venue: ICLR 2026 Workshop on Time Series in the Age of Large Models (TSALM), accepted research paper
@@ -456,8 +404,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## An improved retrieval-augmented long-term grouting power prediction method: Rejecting low-similarity retrievals
 
-- Record: `grouting-retrieval-2026`
-- Role: provisional
 - Known public year: 2026; earliest verified date: not established
 - Date qualification: Exact earliest posting date has not been established.
 - Venue: Engineering Applications of Artificial Intelligence 2026
@@ -471,8 +417,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## Predicting the Future by Retrieving the Past
 
-- Record: `arxiv-2511.05859`
-- Role: core
 - Known public year: 2025; earliest verified date: 2025-11-08
 - Date qualification: arXiv v1 submission date; earliest verified authored preprint in this check, not a claim excluding earlier anonymous public submissions
 - Venue: AAAI 2026, Technical Track on Machine Learning II, 40(25):20896–20904
@@ -488,8 +432,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## Learning from History: A Retrieval-Augmented Framework for Spatiotemporal Prediction
 
-- Record: `arxiv-2510.24049`
-- Role: related; spatiotemporal_field_prediction
 - Known public year: 2025; earliest verified date: 2025-10-28
 - Date qualification: Earliest date established in this review; earlier public versions may exist.
 - Venue: preprint
@@ -504,8 +446,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## Retrieval-Augmented Framework with Adaptive Gating for Time Series Forecasting
 
-- Record: `adaptive-gating-2025`
-- Role: provisional
 - Known public year: 2025; earliest verified date: 2025-09-05
 - Date qualification: Earliest date established in this review; earlier public versions may exist.
 - Venue: Journal of Shanghai Jiaotong University (Science) 2025
@@ -519,8 +459,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## STRATA-TS: Selective Knowledge Transfer for Urban Time Series Forecasting with Retrieval-Guided Reasoning
 
-- Record: `arxiv-2508.18635`
-- Role: core
 - Known public year: 2025; earliest verified date: 2025-08-26
 - Date qualification: Earliest date established in this review; earlier public versions may exist.
 - Venue: preprint
@@ -534,8 +472,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## FLAIRR-TS – Forecasting LLM-Agents with Iterative Refinement and Retrieval for Time Series
 
-- Record: `arxiv-2508.19279`
-- Role: core
 - Known public year: 2025; earliest verified date: 2025-08-24
 - Date qualification: Earliest verified arXiv v1 submission date.
 - Venue: Findings of EMNLP 2025
@@ -550,8 +486,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## A Retrieval Augmented Spatio-Temporal Framework for Traffic Prediction
 
-- Record: `arxiv-2508.16623`
-- Role: core
 - Known public year: 2025; earliest verified date: 2025-08-14
 - Date qualification: Earliest date established in this review; earlier public versions may exist.
 - Venue: AAAI 2026 AI for Social Impact Track
@@ -566,8 +500,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## TRACE: Grounding Time Series in Context for Multimodal Embedding and Retrieval
 
-- Record: `arxiv-2506.09114`
-- Role: core
 - Known public year: 2025; earliest verified date: 2025-06-10
 - Date qualification: arXiv v1 submission date; earliest verified authored preprint in this check, not a claim excluding earlier anonymous public submissions
 - Venue: NeurIPS 2025, Main Conference Track
@@ -583,8 +515,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## Retrieval-Augmented Forecasting with Tabular Time Series Data
 
-- Record: `raf-li-tabular`
-- Role: core
 - Known public year: 2025; earliest verified date: 2025-06-05
 - Date qualification: OpenReview public search record reports Published 05 Jun 2025; ACL Anthology archival volume is July 2025.
 - Venue: 4th Table Representation Learning Workshop (TRL at ACL 2025), pp. 192–199
@@ -599,8 +529,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## Improving Time Series Forecasting via Instance-aware Post-hoc Revision
 
-- Record: `arxiv-2505.23583`
-- Role: core
 - Known public year: 2025; earliest verified date: 2025-05-29
 - Date qualification: arXiv v1 submission date; earliest verified authored preprint in this check, not a claim excluding earlier anonymous public submissions
 - Venue: NeurIPS 2025, Main Conference Track
@@ -616,8 +544,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## Retrieval Augmented Time Series Forecasting
 
-- Record: `arxiv-2505.04163`
-- Role: core
 - Known public year: 2025; earliest verified date: 2025-05-07
 - Date qualification: arXiv v1 submission date; earliest verified authored preprint in this check, not a claim excluding earlier anonymous public submissions
 - Venue: ICML 2025 (PMLR 267:21774–21797)
@@ -633,8 +559,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## TS-RAG: Retrieval-Augmented Generation based Time Series Foundation Models are Stronger Zero-Shot Forecaster
 
-- Record: `arxiv-2503.07649`
-- Role: core
 - Known public year: 2025; earliest verified date: 2025-03-06
 - Date qualification: arXiv v1 submission date; earliest verified authored preprint in this check, not a claim excluding earlier anonymous public submissions
 - Venue: NeurIPS 2025, Main Conference Track
@@ -650,8 +574,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## Retrieval-augmented Large Language Models for Financial Time Series Forecasting
 
-- Record: `arxiv-2502.05878`
-- Role: core
 - Known public year: 2025; earliest verified date: 2025-02-09
 - Date qualification: Earliest date established in this review; earlier public versions may exist.
 - Venue: preprint
@@ -666,8 +588,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## Time-VLM: Exploring Multimodal Vision-Language Models for Augmented Time Series Forecasting
 
-- Record: `arxiv-2502.04395`
-- Role: core
 - Known public year: 2025; earliest verified date: 2025-02-06
 - Date qualification: Earliest verified arXiv v1 submission date.
 - Venue: ICML 2025
@@ -683,8 +603,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## TimeRAF: Retrieval-Augmented Foundation model for Zero-shot Time Series Forecasting
 
-- Record: `arxiv-2412.20810`
-- Role: core
 - Known public year: 2024; earliest verified date: 2024-12-30
 - Date qualification: arXiv v1 submission date; earliest verified authored preprint in this check, not a claim excluding earlier anonymous public submissions
 - Venue: IEEE Transactions on Knowledge and Data Engineering 37(9):5654–5665, 2025
@@ -700,8 +618,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## TimeRAG: BOOSTING LLM Time Series Forecasting via Retrieval-Augmented Generation
 
-- Record: `arxiv-2412.16643`
-- Role: core
 - Known public year: 2024; earliest verified date: 2024-12-21
 - Date qualification: arXiv v1 submission date; earliest verified authored preprint in this check, not a claim excluding earlier anonymous public submissions
 - Venue: ICASSP 2025
@@ -716,8 +632,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## Retrieval Augmented Time Series Forecasting
 
-- Record: `arxiv-2411.08249`
-- Role: core
 - Known public year: 2024; earliest verified date: 2024-11-12
 - Date qualification: arXiv v1 submission date; earliest verified authored preprint in this check, not a claim excluding earlier anonymous public submissions
 - Venue: AISTATS 2026 (PMLR 300:4294–4302)
@@ -733,8 +647,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## Retrieval-Augmented Diffusion Models for Time Series Forecasting
 
-- Record: `arxiv-2410.18712`
-- Role: core
 - Known public year: 2024; earliest verified date: 2024-10-24
 - Date qualification: Earliest date established in this review; earlier public versions may exist.
 - Venue: NeurIPS 2024
@@ -748,8 +660,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## Agentic Retrieval-Augmented Generation for Time Series Analysis
 
-- Record: `arxiv-2408.14484`
-- Role: core
 - Known public year: 2024; earliest verified date: 2024-08-18
 - Date qualification: Earliest date established in this review; earlier public versions may exist.
 - Venue: KDD 2024 Undergraduate Consortium
@@ -763,8 +673,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## Resolution-Aware Retrieval Augmented Zero-Shot Forecasting
 
-- Record: `arxiv-2510.16695`
-- Role: core
 - Known public year: 2024; earliest verified date: not established
 - Date qualification: Exact earliest posting date has not been established.
 - Venue: NeurIPS 2024 TSALM Workshop
@@ -780,8 +688,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## Nearest Neighbor Multivariate Time Series Forecasting
 
-- Record: `arxiv-2505.11625`
-- Role: core
 - Known public year: 2024; earliest verified date: not established
 - Date qualification: Known public year 2024 is supported by the authors’ McGill IALab publication list, 2024 section item 10, and the author manuscript’s ©2024 IEEE publication statement. The exact earliest day was not primary-verified on final recheck; the arXiv v1 date is 2025-05-16, and the final journal issue is July 2025.
 - Venue: IEEE TNNLS 2025
@@ -797,8 +703,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## Retrieval Based Time Series Forecasting
 
-- Record: `arxiv-2209.13525`
-- Role: core
 - Known public year: 2022; earliest verified date: 2022-09-27
 - Date qualification: Earliest date established in this review; earlier public versions may exist.
 - Venue: CIKM 2022 AMLTS Workshop
@@ -812,8 +716,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## MQRetNN: Multi-Horizon Time Series Forecasting with Retrieval Augmentation
 
-- Record: `arxiv-2207.10517`
-- Role: core
 - Known public year: 2022; earliest verified date: 2022-07-21
 - Date qualification: Earliest date established in this review; earlier public versions may exist.
 - Venue: KDD 2022 MileTS Workshop
@@ -828,8 +730,6 @@ Checked on 2026-10-15. This file records the evidence supporting the catalogue; 
 
 ## Self-adaptive Retrieval-Augmented Reinforcement Learning for Time Series Forecasting
 
-- Record: `srrf`
-- Role: pending
 - Known public year: unverified; earliest verified date: not established
 - Date qualification: 最早公开日期未由官方来源确认；不可按ICLR2026标签自动写2026首发。
 - Venue: preprint / OpenReview submission; ICLR 2026 acceptance unconfirmed

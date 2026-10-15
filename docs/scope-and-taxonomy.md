@@ -71,6 +71,8 @@ The name and linked bibliography differ in the checked version. This does not es
 
 ## Year and venue conventions
 
-First public year, arXiv submission date, acceptance year and journal issue year are different fields. For example, Tire's RAF began as a 2024 preprint and has an AISTATS 2026 proceedings record; PFRP began in 2025 and is published at AAAI 2026. kNN-MTS is listed under 2024 in the [authors’ McGill IALab bibliography](https://mcgillialab.com/publications/), while its final issue is July 2025 and its arXiv v1 posting is May 16, 2025. Its exact first-public day was not primary-verified on final recheck, so it is placed at the end of the 2024 group rather than given an assumed day.
+The visible catalogue now uses conference edition years for accepted conference papers and journal publication/issue years where explicitly established. For example, PM-MemNet appears under ICLR 2022, Tire's RAF under AISTATS 2026, and PFRP under AAAI 2026. Their earlier first-public years remain unchanged in the data. TimeRAF and kNN-MTS appear under their 2025 journal labels while their earlier public-year evidence remains preserved.
 
-The Resolution-Aware paper has a 2024 workshop precursor beginning with *Towards* and an expanded 2025 arXiv version. The README displays the workshop title in the 2024 row, while the record links and explains the expanded version. Unknown first posting days are not fabricated from conference dates, DOI years or arXiv identifier prefixes.
+Within each year, venue groups use acceptance-notification dates as labelled proxies; missing dates are not invented. Main tracks, workshops, special tracks and preprints remain distinguishable. See [sorting rules and date sources](ordering.md).
+
+The Resolution-Aware paper retains its 2024 workshop precursor title and venue in the visible list; its expanded 2025 arXiv version remains explained in its record. The Neural Networks article assigned to a January 2027 issue stays in the publication-timing-pending section because a pre-cutoff online date has not been established.

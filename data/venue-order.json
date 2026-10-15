@@ -1,0 +1,289 @@
+{
+  "updated_on": "2026-10-15",
+  "rule": "venue-level notification proxies, never asserted per-paper acceptance dates",
+  "venues": [
+    {
+      "venue": "AAAI 2026",
+      "sort_date": "2025-11-08",
+      "date_basis": "official_venue_notification_proxy",
+      "source_url": "https://aaai.org/conference/aaai/aaai-26/main-technical-track-call/",
+      "timezone": "AoE",
+      "caveat": "Main-track date orders the AAAI venue group. The AISI track remains explicitly labelled; its own notification date was not verified. This is not a paper-level acceptance date.",
+      "verified_on": "2026-10-15"
+    },
+    {
+      "venue": "ICASSP 2026",
+      "sort_date": "2026-01-16",
+      "date_basis": "official_venue_notification_proxy",
+      "source_url": "https://2026.ieeeicassp.org/call-for-papers/",
+      "timezone": null,
+      "caveat": "",
+      "verified_on": "2026-10-15"
+    },
+    {
+      "venue": "AISTATS 2026",
+      "sort_date": "2026-01-22",
+      "date_basis": "official_venue_notification_proxy",
+      "source_url": "https://virtual.aistats.org/Conferences/2026/Dates",
+      "timezone": "AoE",
+      "caveat": "",
+      "verified_on": "2026-10-15"
+    },
+    {
+      "venue": "ICLR 2026",
+      "sort_date": "2026-01-25",
+      "date_basis": "official_venue_notification_proxy",
+      "source_url": "https://iclr.cc/Conferences/2026/Dates",
+      "timezone": "AoE",
+      "caveat": "Dates and CFP agree on Jan 25; a stale Author Guide says Jan 22.",
+      "verified_on": "2026-10-15"
+    },
+    {
+      "venue": "ICLR 2026 TSALM Workshop",
+      "sort_date": "2026-03-01",
+      "date_basis": "official_venue_notification_proxy",
+      "source_url": "https://tsalm-workshop.github.io/call-for-papers/",
+      "timezone": "AoE",
+      "caveat": "",
+      "verified_on": "2026-10-15"
+    },
+    {
+      "venue": "ICML 2026",
+      "sort_date": "2026-04-30",
+      "date_basis": "official_venue_notification_proxy",
+      "source_url": "https://icml.cc/Conferences/2026/Dates",
+      "timezone": "AoE",
+      "caveat": "",
+      "verified_on": "2026-10-15"
+    },
+    {
+      "venue": "KDD 2026",
+      "sort_date": "2026-05-16",
+      "date_basis": "final_cycle_venue_group_proxy",
+      "source_url": "https://kdd2026.kdd.org/research-track-call-for-papers/",
+      "timezone": "AoE",
+      "caveat": "Research-track notification dates are 2025-11-23 and 2026-05-16. The final scheduled cycle orders the combined venue group; the individual cycles of SARAF and TS-Memory are unverified.",
+      "verified_on": "2026-10-15",
+      "notification_dates": [
+        "2025-11-23",
+        "2026-05-16"
+      ]
+    },
+    {
+      "venue": "ICML 2026 AI Forecasting Workshop",
+      "sort_date": "2026-05-20",
+      "date_basis": "official_venue_notification_proxy",
+      "source_url": "https://forecasting-workshop.github.io/",
+      "timezone": null,
+      "caveat": "Dated organizer announcement states all authors had been notified.",
+      "verified_on": "2026-10-15"
+    },
+    {
+      "venue": "ICML 2026 FMSD Workshop",
+      "sort_date": "2026-05-24",
+      "date_basis": "official_venue_notification_proxy",
+      "source_url": "https://icml-structured-fm-workshop.github.io/call-for-papers/",
+      "timezone": "AoE",
+      "caveat": "Revised from May 22.",
+      "verified_on": "2026-10-15"
+    },
+    {
+      "venue": "KDD 2026 MileTS Workshop",
+      "sort_date": "2026-06-10",
+      "date_basis": "official_venue_notification_proxy",
+      "source_url": "https://kdd-milets.github.io/milets2026/",
+      "timezone": "Alofi",
+      "caveat": "",
+      "verified_on": "2026-10-15"
+    },
+    {
+      "venue": "CIKM 2026",
+      "sort_date": "2026-08-07",
+      "date_basis": "official_venue_notification_proxy",
+      "source_url": "https://cikm2026.diag.uniroma1.it/",
+      "timezone": "AoE",
+      "caveat": "",
+      "verified_on": "2026-10-15"
+    },
+    {
+      "venue": "NeurIPS 2026",
+      "sort_date": "2026-09-24",
+      "date_basis": "official_venue_notification_proxy",
+      "source_url": "https://neurips.cc/Conferences/2026/Dates",
+      "timezone": "AoE",
+      "caveat": "Paper author notifications, not location assignment.",
+      "verified_on": "2026-10-15"
+    },
+    {
+      "venue": "ICASSP 2025",
+      "sort_date": "2024-12-18",
+      "date_basis": "mirrored_organizer_cfp_proxy",
+      "source_url": "https://services.isca-speech.org/iscapad/iscapad.php?back=p%2C323&id=31907&module=article",
+      "timezone": "unspecified",
+      "caveat": "ISCA reproduces the conference CFP, posted Dec 11, 2024. Weaker evidence: the original conference site was inaccessible. This is a scheduled venue date, not an individual acceptance.",
+      "verified_on": "2026-10-15"
+    },
+    {
+      "venue": "ICLR 2025",
+      "sort_date": "2025-01-22",
+      "date_basis": "official_venue_notification_proxy",
+      "source_url": "https://iclr.cc/Conferences/2025/Dates",
+      "timezone": "AoE",
+      "caveat": "",
+      "verified_on": "2026-10-15"
+    },
+    {
+      "venue": "ICML 2025",
+      "sort_date": "2025-05-01",
+      "date_basis": "official_venue_notification_proxy",
+      "source_url": "https://icml.cc/Conferences/2025/Dates",
+      "timezone": "AoE",
+      "caveat": "",
+      "verified_on": "2026-10-15"
+    },
+    {
+      "venue": "ACL 2025 TRL Workshop",
+      "sort_date": "2025-05-19",
+      "date_basis": "official_venue_notification_proxy",
+      "source_url": "https://table-representation-learning.github.io/ACL2025/",
+      "timezone": "AoE",
+      "caveat": "Revised from May 15.",
+      "verified_on": "2026-10-15"
+    },
+    {
+      "venue": "Findings of EMNLP 2025",
+      "sort_date": "2025-08-20",
+      "date_basis": "official_venue_notification_proxy",
+      "source_url": "https://2025.emnlp.org/calls/main_conference_papers/",
+      "timezone": "AoE",
+      "caveat": "EMNLP commitment-decision notification proxy. A separate Findings-specific date was not verified; the Findings preface confirms the shared two-stage process.",
+      "verified_on": "2026-10-15"
+    },
+    {
+      "venue": "NeurIPS 2025",
+      "sort_date": "2025-09-18",
+      "date_basis": "official_venue_notification_proxy",
+      "source_url": "https://neurips.cc/Conferences/2025/Dates",
+      "timezone": "AoE",
+      "caveat": "Main papers notification, not position papers.",
+      "verified_on": "2026-10-15"
+    },
+    {
+      "venue": "ICML 2024",
+      "sort_date": "2024-05-01",
+      "date_basis": "official_venue_notification_proxy",
+      "source_url": "https://icml.cc/Conferences/2024/Dates",
+      "timezone": "AoE",
+      "caveat": "",
+      "verified_on": "2026-10-15"
+    },
+    {
+      "venue": "KDD 2024 Undergraduate Consortium",
+      "sort_date": "2024-06-13",
+      "date_basis": "official_venue_notification_proxy",
+      "source_url": "https://www.kdd.org/kdd2024/call-for-undergraduate-consortium/",
+      "timezone": null,
+      "caveat": "",
+      "verified_on": "2026-10-15"
+    },
+    {
+      "venue": "NeurIPS 2024",
+      "sort_date": "2024-09-25",
+      "date_basis": "official_venue_notification_proxy",
+      "source_url": "https://neurips.cc/Conferences/2024/CallForPapers",
+      "timezone": "CFP calendar date",
+      "caveat": "Advertised CFP calendar date; Dates page expresses the notification as 2024-09-26 01:00 UTC.",
+      "verified_on": "2026-10-15"
+    },
+    {
+      "venue": "NeurIPS 2024 TSALM Workshop",
+      "sort_date": "2024-10-10",
+      "date_basis": "official_venue_notification_proxy",
+      "source_url": "https://tsalm-workshop.github.io/neurips-2024/call-for-papers/",
+      "timezone": "AoE",
+      "caveat": "Revised from Oct 9; Oct 10 announcement confirms decisions released.",
+      "verified_on": "2026-10-15"
+    },
+    {
+      "venue": "NeurIPS 2023",
+      "sort_date": "2023-09-21",
+      "date_basis": "official_venue_notification_proxy",
+      "source_url": "https://neurips.cc/Conferences/2023/CallForPapers",
+      "timezone": "CFP calendar date",
+      "caveat": "Advertised CFP calendar date; Dates page expresses the notification as 2023-09-22 01:00 UTC.",
+      "verified_on": "2026-10-15"
+    },
+    {
+      "venue": "ICLR 2022",
+      "sort_date": "2022-01-24",
+      "date_basis": "official_venue_notification_proxy",
+      "source_url": "https://iclr.cc/Conferences/2022/Dates",
+      "timezone": "11:59 UTC",
+      "caveat": "",
+      "verified_on": "2026-10-15"
+    },
+    {
+      "venue": "KDD 2022 MileTS Workshop",
+      "sort_date": "2022-06-27",
+      "date_basis": "official_venue_notification_proxy",
+      "source_url": "https://kdd-milets.github.io/milets2022/#dates",
+      "timezone": null,
+      "caveat": "Revised from June 20; the downloadable CFP retained the outdated date.",
+      "verified_on": "2026-10-15"
+    },
+    {
+      "venue": "CIKM 2022 AMLTS Workshop",
+      "sort_date": null,
+      "date_basis": "unverified",
+      "source_url": "https://easychair.org/cfp/amlts22",
+      "timezone": null,
+      "caveat": "Organizer CFP gives submission deadline but no paper-notification date. Not replaced by another CIKM workshop date.",
+      "verified_on": "2026-10-15"
+    },
+    {
+      "venue": "SoICT 2017",
+      "sort_date": "2017-10-13",
+      "date_basis": "official_venue_notification_proxy",
+      "source_url": "https://soict.org/2017/files/SoICT2017-CFP-210617.pdf",
+      "timezone": null,
+      "caveat": "",
+      "verified_on": "2026-10-15"
+    },
+    {
+      "venue": "ICDM 2016",
+      "sort_date": "2016-09-09",
+      "date_basis": "official_venue_notification_proxy",
+      "source_url": "https://icdm2016.eurecat.cat/call-for-papers/",
+      "timezone": "Pacific Daylight Time",
+      "caveat": "",
+      "verified_on": "2026-10-15"
+    },
+    {
+      "venue": "ICPR 2016",
+      "sort_date": null,
+      "date_basis": "unverified",
+      "source_url": "https://iapr.org/archives/icpr2016/site/index.html%3Fp%3D3706.html",
+      "timezone": null,
+      "caveat": "Official archived dates page could not be read; no paper-notification date asserted.",
+      "verified_on": "2026-10-15"
+    },
+    {
+      "venue": "KDD 2012",
+      "sort_date": "2012-05-04",
+      "date_basis": "official_venue_notification_proxy",
+      "source_url": "https://kdd2012.hosting.acm.org/author_instructions.shtml",
+      "timezone": "PST as stated by source",
+      "caveat": "",
+      "verified_on": "2026-10-15"
+    },
+    {
+      "venue": "AAAI 1994 Technical Report WS-94-01",
+      "sort_date": null,
+      "date_basis": "unverified",
+      "source_url": "https://cdn.aaai.org/Workshops/1994/WS-94-01/WS94-01-012.pdf",
+      "timezone": null,
+      "caveat": "Workshop technical report, not the AAAI main track; notification date unverified.",
+      "verified_on": "2026-10-15"
+    }
+  ]
+}
