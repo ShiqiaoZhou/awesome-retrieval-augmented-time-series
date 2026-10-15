@@ -1,0 +1,89 @@
+{
+  "previous_raw_records": 112,
+  "previous_deduplicated_records": 104,
+  "previous_duplicate_count": 8,
+  "previous_duplicate_groups": [
+    {
+      "canonical_id": "martinez2018season",
+      "source_record_ids": [
+        "martinez2018season",
+        "martinez2018season"
+      ]
+    },
+    {
+      "canonical_id": "martinez2019methodology",
+      "source_record_ids": [
+        "martinez2019methodology",
+        "martinez2019methodology"
+      ]
+    },
+    {
+      "canonical_id": "gao2021matrixprofile",
+      "source_record_ids": [
+        "gao2021matrixprofile",
+        "gao2021matrixprofile"
+      ]
+    },
+    {
+      "canonical_id": "marcacini2016websensors",
+      "source_record_ids": [
+        "marcacini2016websensors",
+        "marcacini2016websensors"
+      ]
+    },
+    {
+      "canonical_id": "giao2017streaming",
+      "source_record_ids": [
+        "giao2017streaming",
+        "giao2017streaming"
+      ]
+    },
+    {
+      "canonical_id": "dudek2016local",
+      "source_record_ids": [
+        "dudek2016local",
+        "dudek2016local"
+      ]
+    },
+    {
+      "canonical_id": "samanta2022mltf",
+      "source_record_ids": [
+        "samanta2022mltf",
+        "samanta2022mltf"
+      ]
+    },
+    {
+      "canonical_id": "zulj2021glucose",
+      "source_record_ids": [
+        "zulj2021glucose",
+        "zulj2021glucose"
+      ]
+    }
+  ],
+  "cross_version_overlap": 28,
+  "merged_union_records": 127,
+  "identity_rule": "Prefer arXiv/DOI identity. Exact titles are used only when identifiers do not conflict. Same acronyms are not identity.",
+  "do_not_merge": [
+    {
+      "ids": [
+        "han2025raft",
+        "tire2026raf"
+      ],
+      "reason": "Same normalized title, different arXiv IDs: 2505.04163 and 2411.08249."
+    },
+    {
+      "ids": [
+        "ning2025tsrag",
+        "xiao2026tsrag"
+      ],
+      "reason": "Different TS-RAG papers, arXiv 2503.07649 vs 2608.06223."
+    },
+    {
+      "ids": [
+        "xiao2024timerag_submission",
+        "yang2025timerag"
+      ],
+      "reason": "Distinct TimeRAG titles/identities; no established version-family equivalence."
+    }
+  ]
+}
