@@ -19,7 +19,7 @@ Checked on October 15, 2026. These are specific limitations of the current revie
 
 ## Publication timing and scope candidates
 
-- [Online spatio-temporal forecasting with retrieval-augmented orthogonal landmark transformer and masked teacher–student learning](https://www.sciencedirect.com/science/article/pii/S0893608026010853), ROLT-MTSOL, DOI 10.1016/j.neunet.2026.109628: the publisher assigns it to Neural Networks 205 Part C, January 2027. Third-party indexing suggests a 2026 online release, but the official early-online date was not established. Retain its inherited candidate record in the complete archive, with the year flagged as uncertain; withhold from the cutoff-verified focused chronology pending that date check.
+- [Online spatio-temporal forecasting with retrieval-augmented orthogonal landmark transformer and masked teacher–student learning](https://pubmed.ncbi.nlm.nih.gov/42743675/), ROLT-MTSOL: the publication-date gap is resolved by the verified electronic publication date of 8 September 2026. Its January 2027 issue does not determine display order. The inherited candidate scope remains unchanged; this date check is not a full-text method audit.
 - [Adaptive Dominant Spectral Summary Guided Macro-Context Retrieval for Robust Multivariate Time Series Forecasting](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6753035), DSR: public SSRN record dated May 12, 2026, with a forthcoming [Expert Systems with Applications article](https://www.sciencedirect.com/science/article/pii/S0957417426033713) assigned to a February 2027 issue. Its macro-context is derived from the same input and uses LLM semantics, rather than an external historical-example bank. Consider as related representation research, not an automatic main-list addition.
 - [MEMTS](https://arxiv.org/abs/2602.13783): parameterized memory adaptation; retrieval-free in the relevant inference path. Do not include solely because the title contains memory.
 - [MOMEMTO](https://arxiv.org/abs/2509.18751): anomaly detection, outside the primary forecasting scope.
@@ -28,11 +28,18 @@ Checked on October 15, 2026. These are specific limitations of the current revie
 ## Date and release qualifications already preserved
 
 - TimeMRA, TabPFN-TSRA and the ICLR 2026 long-context comparison have verified 2026 venue records but no verified earliest public day in this review.
-- SpecReTF has an earlier ICLR 2026 submission and a June 2026 arXiv version; acceptance was not confirmed, so it remains preprint.
+- SpecReTF has an earlier ICLR 2026 submission and a verified arXiv v1 date of 17 June 2026. The earlier submission posting date and acceptance were not confirmed, so it remains preprint; the verified arXiv date orders the entry.
 - *When Does Retrieval Help Time-Series Forecasting?* exposes an arXiv submission-history date inconsistent with the month suggested by its identifier. The explicit source date is preserved with a warning, rather than silently “corrected” from the identifier.
 - SteerCast's NeurIPS 2026 poster URL was verified in the official Downloads page, although its direct poster-page body was not readable through the research tool.
 - SEER's public repository was accessible but implementation files were not verified; a code link is not a claim of a complete implementation.
 - TIMBRE's stated ICASSP 2027 submission is not an acceptance. It remains preprint.
+
+## Bibliographic display clarifications
+
+- ORCA and ForecastCompass are listed in the official [NeurIPS 2026 Downloads](https://neurips.cc/Downloads/2026) programme. Their display venues are now NeurIPS 2026; this does not alter their inherited scope decisions or establish proceedings publication dates.
+- kNN-MTS has a verified 14 November 2024 online publication date, preceding its 2025 issue.
+- The ASR repository record and the unresolved TimeRAG submission have no verified conference/journal. Both use the preprint label. ASR remains repository-level evidence, not proof of a separately published manuscript; its exact posting date and identity details still need checking.
+- Month/year-only publication fallbacks and unresolved initial posting dates are explicit in [the date evidence](../data/publication-dates.json). Historical source snapshots can retain earlier uncertainty; current display-date evidence takes precedence for ordering only.
 
 ## How to close these gaps
 
