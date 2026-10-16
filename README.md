@@ -1,30 +1,17 @@
 # Awesome Retrieval-Augmented Time Series
 
-A source-linked catalogue of retrieval-augmented time-series forecasting, organized by year and retrieval integration stage.
+A source-linked catalogue of retrieval-augmented time-series forecasting.
 
-**Updated 15 October 2026 · 127 retained records · 50 mapped core methods: 33 input augmentation + 17 post-hoc refinement · 1 hybrid method · 3 historical augmentation antecedents.**
+**Updated 16 October 2026 · 127 retained records · 51 categorized methods: 34 input augmentation + 17 post-hoc refinement.**
 
-## Contents
+- [List by Year](#list-by-year)
+- [List by Category](#list-by-category)
 
-- [Complete catalogue by year](#complete-catalogue-by-year)
-- [SARAF method view](#saraf-method-view)
-- [Hybrid method](#hybrid-method)
-- [Historical augmentation antecedents](#historical-augmentation-antecedents)
-- [Sorting rules and date sources](docs/ordering.md)
-- [Scope and taxonomy](docs/scope-and-taxonomy.md)
-- [Verification](docs/verification.md), [recovery evidence](docs/recovery-verification.md) and [pending questions](docs/pending.md)
-- [Master corpus](data/papers.json) and [reconciliation history](docs/reconciliation.md)
+## List by Year
 
-## Reading and sorting
+Newest first. Conferences and their workshops share the parent event's start date; parentheses distinguish venues. Journals use verified publication dates, preferably first online. Preprints are interleaved by their earliest verified posting date; records without a verified conference or journal are labelled preprint.
 
-- **Newest first.** Conferences and their workshops share the parent conference's full-event start date; parentheses distinguish venues and tracks. Journals use verified publication dates, preferably first online. Preprints are interleaved by their earliest verified posting date. Records without a verified conference or journal are labelled preprint.
-- Only verified date precision is used. Month/year-only records follow precisely dated records within that month/year; entirely unknown years are last. This is a transparent fallback, not an exact chronology claim. [Date rules and sources](docs/ordering.md) include scheduled future conferences.
-- The complete catalogue includes related work, historical background, candidates and documented exclusions. It is broader than the 50-method core view; inclusion here does not make every entry a core forecasting method.
-- Stable IDs, original first-public dates and scope decisions remain in the [reconciled source data](data/papers.json); updated display dates and evidence are separate. Record reconciliation is complete, but not every inherited paper was newly read in full.
-
-## Complete catalogue by year
-
-All 127 retained records. A standalone copy is available [here](docs/full-catalogue-by-year.md).
+Dates retain their verified precision: month/year-only records follow fully dated records within that month/year, and unknown years are last. Accepted papers for future conferences use scheduled event dates. This list retains all 127 records, including related work and unresolved candidates.
 
 ### 2026
 
@@ -237,11 +224,16 @@ All 127 retained records. A standalone copy is available [here](docs/full-catalo
 
 - [Self-adaptive Retrieval-Augmented Reinforcement Learning for Time Series Forecasting](https://openreview.net/pdf?id=1jlci3sF4Q) (preprint)
 
-## SARAF method view
+## List by Category
 
-These labels describe where retrieved information enters the forecasting process. Post-hoc refinement includes output fusion; it does not imply training-free operation. Additional papers are editorially mapped, not attributed to SARAF's authors.
+This focused view contains 51 methods. The other 76 year-list records comprise 52 related/background records, 16 provisional or unresolved records, 5 inherited exclusions and 3 inherited method mappings outside the focused count. They remain in the year list; absence here does not mean every candidate was rejected.
 
-### Retrieval as Input Augmentation (33 core methods)
+- **Retrieval as Input Augmentation:** retrieved examples or context are supplied to the forecaster before or during prediction.
+- **Retrieval as Post-hoc Refinement:** retrieved evidence corrects or combines base forecasts, including output fusion; it is not necessarily training-free.
+
+The two-category taxonomy follows [SARAF](https://arxiv.org/abs/2606.04135).
+
+### Retrieval as Input Augmentation (34 methods)
 
 #### 2026
 
@@ -249,6 +241,7 @@ These labels describe where retrieved information enters the forecasting process
 - [TIMBRE: Teaching Time Series Forecasters to Read, Remember, and Reconcile](https://arxiv.org/abs/2610.04795) (preprint)
 - [SEER: Self-Evolving Event Reasoning and Retrieval for Time Series Forecasting](https://arxiv.org/abs/2610.04109) (preprint)
 - [GlyRAG: Context-Aware Retrieval-Augmented Framework for Blood Glucose Forecasting](https://arxiv.org/abs/2601.05353) (IEEE Journal of Biomedical and Health Informatics, online ahead of print)
+- [GNA: Granular Neighbor Assembly for Retrieval-Augmented Multivariate Time-Series Forecasting](https://arxiv.org/abs/2609.36281) (preprint)
 - [Model-agnostic Retrieval-Augmented Extended Forecasting for time series](https://arxiv.org/abs/2608.14054) (preprint)
 - [Not All Retrievals are Useful: Cross-Attention for Input-Aware RAG in Time Series Forecasting](https://arxiv.org/abs/2603.14709) (KDD 2026 MileTS Workshop)
 - [Align-RAG: Alignment Is All You Need for TSFM In-Context Learning](https://arxiv.org/abs/2608.05571) (preprint)
@@ -294,7 +287,7 @@ These labels describe where retrieved information enters the forecasting process
 
 - [A Memory-Network Based Solution for Multivariate Time-Series Forecasting](https://arxiv.org/abs/1809.02105) (preprint)
 
-### Retrieval as Post-hoc Refinement (17 core methods)
+### Retrieval as Post-hoc Refinement (17 methods)
 
 #### 2026
 
@@ -322,35 +315,3 @@ These labels describe where retrieved information enters the forecasting process
 
 - [Nearest Neighbor Multivariate Time Series Forecasting](https://arxiv.org/abs/2505.11625) (IEEE TNNLS)
 
-## Hybrid method
-
-GNA combines retrieved-future output mixing with neighbor-feature cross-attention; it is not forced into either binary category.
-
-### 2026
-
-- [GNA: Granular Neighbor Assembly for Retrieval-Augmented Multivariate Time-Series Forecasting](https://arxiv.org/abs/2609.36281) (preprint)
-
-## Historical augmentation antecedents
-
-These three historical mappings retain inherited method evidence. Their full texts were not newly reverified on the update date, and they are not added to the 50-method focused count.
-
-### 2022
-
-- [Macroeconomic forecasting in times of crises](https://onlinelibrary.wiley.com/doi/10.1002/jae.2951) (Journal of Applied Econometrics)
-
-### 2011
-
-- [Kalman Filter and Analog Schemes to Postprocess Numerical Weather Predictions](https://journals.ametsoc.org/view/journals/mwre/139/11/2011mwr3653.1.xml) (Monthly Weather Review)
-
-### 2010
-
-- [Short-Term Load Forecasting: Similar Day-Based Wavelet Neural Networks](https://doi.org/10.1109/TPWRS.2009.2030426) (IEEE Transactions on Power Systems)
-
-## Sources and maintenance
-
-- [Counts](data/catalogue-summary.json), [stable-ID crosswalk](data/reconciliation-crosswalk.csv) and [version rules](data/version-deduplication.json)
-- [Display order](data/display-order.json), [conference event dates](data/venue-order.json) and [publication-date evidence](data/publication-dates.json)
-- [Previous-corpus public metadata](data/previous-corpus-public-metadata.json)
-- [Related repositories](docs/related-repositories.md)
-
-Organization is inspired by [TSFpaper](https://github.com/ddz16/TSFpaper). Taxonomy attribution: [SARAF, Section 2.2](https://arxiv.org/html/2606.04135v1#S2.SS2). No endorsement is implied.
