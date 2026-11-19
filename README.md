@@ -2,35 +2,59 @@
 
 A source-linked catalogue of retrieval-augmented time-series forecasting.
 
-**Updated 16 October 2026 · 127 retained records · 51 categorized methods: 34 input augmentation + 17 post-hoc refinement.**
+**Updated 19 November 2026 · 153 records · 74 categorized methods (49 input augmentation, 25 post-hoc refinement).**
 
-- [List by Year](#list-by-year)
 - [List by Category](#list-by-category)
+- [List by Year](#list-by-year)
 
 ## List by Year
 
-Newest first. Conferences and their workshops share the parent event's start date; parentheses distinguish venues. Journals use verified publication dates, preferably first online. Preprints are interleaved by their earliest verified posting date; records without a verified conference or journal are labelled preprint.
+Newest first. Conferences and their workshops share the parent event's start date; parentheses distinguish venues. Journals use the verified first-online date when available, or the publisher’s issue date. A future issue can include a paper already available online. Preprints are interleaved by their earliest verified posting date; records without a verified conference or journal are labelled preprint.
 
-Dates retain their verified precision: month/year-only records follow fully dated records within that month/year, and unknown years are last. Accepted papers for future conferences use scheduled event dates. This list retains all 127 records, including related work and unresolved candidates.
+Dates retain their verified precision: month/year-only records follow fully dated records within that month/year, and unknown years are last. Accepted papers for future conferences use scheduled event dates. The index includes all 153 records, including related work and unresolved candidates.
 
 ### 2026
 
+- [PARA-PV: Physics-Aware Retrieval-Augmented PV Prediction Based on Frozen Foundation Model and Distribution Shift Correction](https://doi.org/10.1016/j.energy.2026.143011) (Energy 368, 143011, issue dated 15 Dec 2026) [Preprint, 9 Jul 2026](https://arxiv.org/abs/2607.08079)
 - [ForecastCompass: Guiding Agentic Forecasting with Adaptive Factor Memory](https://arxiv.org/abs/2605.30858) (NeurIPS 2026)
 - [Learning the Context of Errors: Black-Box Online Adaptation of Time Series Foundation Models](https://arxiv.org/abs/2606.14222) (NeurIPS 2026)
 - [SteerCast: Retrieval-Based Latent Steering for Decoder-Only Time Series Forecasting](https://arxiv.org/abs/2610.11229) (NeurIPS 2026)
-- [Retrieval-Corrected Conformal Prediction for Time Series](https://arxiv.org/abs/2608.10553) (CIKM 2026, accepted full research paper)
-- [Retrieve the Right Signal: Decomposition-Guided Retrieval-Augmented Forecasting for Financial Markets](https://cikm2026.diag.uniroma1.it/program/) (CIKM 2026)
-- [Retrieval Is Not Enough: Refreshing Memory for Frozen Time-Series Forecasters](https://arxiv.org/abs/2610.07834) (preprint)
+- [When to Trust Memory: Retrieval-Guided Probabilistic Spatiotemporal Forecasting under Distribution Shift](https://arxiv.org/abs/2610.32329) (NeurIPS 2026) [Conference record](https://neurips.cc/virtual/2026/poster/151106)
+- [Can Time Series Foundation Models Serve as Surrogates for Power Systems Dynamic Simulation?](https://arxiv.org/abs/2611.10247) (NeurIPS 2026 Foundation Models for Temporal Systems Workshop)
+- [GlucoAgent: Personalized Glucose Forecasting from Multimodal Personal Context](https://arxiv.org/abs/2611.04126) (NeurIPS 2026 GenAI for Health Workshop, as listed by the authors)
+- [Learning Day-Ahead Electricity Price Dynamics in Renewable Power Systems: A Time-Adaptive Segmented Multi-Model Ensemble Forecasting Approach](https://www.mdpi.com/2071-1050/18/22/11720) (Sustainability, 18 Nov 2026)
+- [SWIFT: Sample-Wise Instance Fine-Tuning of Time-Series Foundation Models for Forecasting](https://arxiv.org/abs/2611.17915) (preprint, 13 Nov 2026) — Retrieval selects history for fitting a window-specific expert, whose prediction is then blended with the frozen model’s output.
+- [CastWorld: Benchmarking Context-Aware Agentic Time Series Forecasting Beyond Predictive Accuracy](https://arxiv.org/abs/2611.15262) (preprint, 11 Nov 2026) — Benchmark for acquiring historical cases and other evidence during forecast revision. [Code](https://github.com/CastWorld-Bench/CastWorld)
+- [Reliable Operation of Converter Valves in Flexible DC Systems Enabled by Ultra-Short-Term PV Power Forecasting with Intraday Real-Time Correction and Multi-Model Feature Fusion](https://www.mdpi.com/2079-9292/15/22/5198) (Electronics, 10 Nov 2026)
+- [Retrieval-Corrected Conformal Prediction for Time Series](https://arxiv.org/abs/2608.10553) (CIKM 2026) [Proceedings](https://doi.org/10.1145/3799682.3840955) [Code](https://github.com/jinsaaang/rccp)
+- [Retrieve the Right Signal: Decomposition-Guided Retrieval-Augmented Forecasting for Financial Markets](https://doi.org/10.1145/3799682.3841004) (CIKM 2026)
+- [Similar-Scenario Retrieval and Intelligent Hyperparameter Optimization for Day-Ahead Electricity Price Forecasting](https://doi.org/10.4108/ew.14570) (EAI Endorsed Transactions on Energy Web, 5 Nov 2026) — Historical scenarios select a target-specific training set for electricity price prediction.
+- [Decouple to Reuse: Fine-Grained Knowledge Augmentation for Time Series Foundation Models](https://arxiv.org/abs/2611.05993) (preprint, 4 Nov 2026)
+- [FARE: Factor-Aware Retrieval with Error-Guided Fusion for Retail Forecasting](https://arxiv.org/abs/2610.40160) (preprint, 29 Oct 2026)
+- [RAG-CSI: Global Local Retrieval via Joint State and Dynamics Matching for CSI Prediction](https://arxiv.org/abs/2610.36881) (preprint, 27 Oct 2026)
+- [Multi-feature temporal sequence modeling for improved subway passenger flow prediction](https://doi.org/10.1007/s40747-026-02505-y) (Complex & Intelligent Systems, 26 Oct 2026)
+- [Beyond Similarity: Coverage-Aware Prompt Selection for Time Series Forecasting with LLMs](https://aclanthology.org/2026.findings-emnlp.1491/) (Findings of EMNLP 2026)
+- [Point-in-Time Financial RAG with Frozen LLM Readers and Market-Feedback Adaptive Retrieval](https://aclanthology.org/2026.emnlp-industry.186/) (EMNLP 2026 Industry Track)
+- [A Model-Agnostic Correction Framework for Short-Term Building Load Forecasting](https://arxiv.org/abs/2610.31959) (preprint, 22 Oct 2026)
+- [When Price Charts Rhyme: Historical Visual Retrieval for Stock Return Prediction](https://arxiv.org/abs/2611.23723) (preprint, 22 Oct 2026) [First posting on SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7653398) A standalone analogue forecast averages the realized returns that followed similar historical charts.
+- [Daily Parking Demand Interval Forecasting with Similar-Day Matching Diagnostics](https://www.mdpi.com/2076-3417/16/20/10440) (Applied Sciences, 21 Oct 2026)
+- [M²Net: Unifying Scale-Specific Structures and Prototype Decomposition for Spatial-Temporal Forecasting](https://arxiv.org/abs/2610.24516) (preprint, 17 Oct 2026)
+- [ECHO: Correcting Time Series Foundation Model Forecasts with Historical Analogues and Errors](https://arxiv.org/abs/2610.16433) (preprint, 12 Oct 2026)
+- [FreshCast: Timely and Complementary Retrieval for Frozen Time Series Forecasters](https://arxiv.org/abs/2610.07834) (preprint)
 - [GRAM: Correcting Frozen Time-Series Foundation Models via Graph-Retrieved Amplitude Memory](https://arxiv.org/abs/2610.04827) (preprint)
 - [TIMBRE: Teaching Time Series Forecasters to Read, Remember, and Reconcile](https://arxiv.org/abs/2610.04795) (preprint)
 - [Dual-Context Analog Retrieval for Time Series Forecasting](https://arxiv.org/abs/2610.03491) (preprint)
 - [SEER: Self-Evolving Event Reasoning and Retrieval for Time Series Forecasting](https://arxiv.org/abs/2610.04109) (preprint)
+- [STRAF: A retrieval-augmented framework for time series forecasting with adaptive historical fusion](https://doi.org/10.1016/j.neucom.2026.135443) (Neurocomputing, online Oct 2026, Jan 2027 issue) [Online date record](https://sciprofiles.com/profile/2185785/publications)
 - [RACE: Residual-Aware Test-Time Adaptation for Neighbor-Rich Time-Series Foundation Model Forecasting](https://arxiv.org/abs/2610.00405) (preprint)
 - [GlyRAG: Context-Aware Retrieval-Augmented Framework for Blood Glucose Forecasting](https://arxiv.org/abs/2601.05353) (IEEE Journal of Biomedical and Health Informatics, online ahead of print)
 - [GNA: Granular Neighbor Assembly for Retrieval-Augmented Multivariate Time-Series Forecasting](https://arxiv.org/abs/2609.36281) (preprint)
+- [Knowledge-Graph-Augmented Chronos-2 for HEC-RAS Surrogate Forecasting](https://arxiv.org/abs/2609.21381) (preprint, 18 Sep 2026)
 - [Online spatio-temporal forecasting with retrieval-augmented orthogonal landmark transformer and masked teacher-student learning](https://www.sciencedirect.com/science/article/pii/S0893608026010853) (Neural Networks)
+- [DeCyReM: De-Cycled Residual Memory with Utility-Gated Retrieval for Traffic Flow Forecasting](https://www.mdpi.com/2227-7390/14/17/3207) (Mathematics, 4 Sep 2026)
 - [RATL: Learning from Retrieved Residuals for Robust Multivariate Time-Series Forecasting](https://arxiv.org/abs/2609.03937) (preprint)
 - [Rollcast: Proper-Score Gated Rolling Anchors for Adaptive Probabilistic Time-Series Forecasting](https://arxiv.org/abs/2609.05561) (preprint)
+- [State-Aware Dynamic Retrieval and Persistence-Anchored Expert Fusion for Very Short-Term Wind Power Forecasting Without Numerical Weather Prediction](https://www.mdpi.com/2227-7390/14/17/3076) (Mathematics, 27 Aug 2026)
 - [Which Histories Matter for Time Series Forecasting? Learning Predictive Relevance with Future Supervision](https://arxiv.org/abs/2608.23221) (preprint)
 - [Model-agnostic Retrieval-Augmented Extended Forecasting for time series](https://arxiv.org/abs/2608.14054) (preprint)
 - [Stationarity-Aware Retrieval-Augmented Time Series Forecasting](https://arxiv.org/abs/2606.04135) (KDD 2026)
@@ -39,19 +63,22 @@ Dates retain their verified precision: month/year-only records follow fully date
 - [KReF: Training-Free Retrieval for Long-Term Time-Series Forecasting and Predictive Uncertainty](https://arxiv.org/abs/2608.06748) (preprint)
 - [Align-RAG: Alignment Is All You Need for TSFM In-Context Learning](https://arxiv.org/abs/2608.05571) (preprint)
 - [TS-RAG: Retrieval Augmented Generation for Time Series Forecasting](https://arxiv.org/abs/2608.06223) (preprint)
-- [CastFSR: A Fast--Slow--Reflect Agentic Reasoning Framework for Context-Aware Time Series Forecasting](https://arxiv.org/abs/2608.03031) (preprint)
+- [CastFSR: Fast–Slow–Reflect Agentic Reasoning for Context-Aware Time Series Forecasting](https://arxiv.org/abs/2608.03031) (preprint)
 - [When Does Retrieval Help Time-Series Forecasting?](https://arxiv.org/abs/2609.20193) (preprint)
+- [Beyond Extrapolation: Knowledge Utilization Paradigm with Bidirectional Inspiration for Time Series Forecasting](https://proceedings.mlr.press/v306/chong26c.html) (ICML 2026)
 - [MemCast: Memory-Driven Time Series Forecasting with Experience-Conditioned Reasoning](https://arxiv.org/abs/2602.03164) (ICML 2026)
 - [TimeMRA: LLM-Empowered Time Series Forecasting via Multi-Scale Retrieval-Augmented Representations](https://proceedings.mlr.press/v306/shang26b.html) (ICML 2026)
 - [Semantics-Enhanced Retrieval-Augmented Time Series Forecasting](https://arxiv.org/abs/2606.14941) (ICML 2026 AI Forecasting Workshop)
 - [TabPFN-TSRA: Retrieval-Augmented TabPFN for Time-Series Forecasting](https://openreview.net/forum?id=pGK4RbJTC9) (ICML 2026 FMSD Workshop)
 - [ReDiTT: Retrieval Augmented Conditional Diffusion Transformers for Asynchronous Time Series](https://arxiv.org/abs/2607.12391) (TMLR 2026)
+- [Cross-city Time Series Forecasting with Retrieval-Augmented Large Language Models](https://doi.org/10.1145/3774904.3792074) (The Web Conference 2026) [Earlier version, STRATA-TS](https://arxiv.org/abs/2508.18635)
 - [Spectral Retrieval-Augmented Time-Series Forecasting](https://arxiv.org/abs/2606.19412) (preprint)
 - [From Long News to Accurate Forecast: Importance-Aware Fusion and PRM-Guided Reflection for Time Series Forecasting](https://arxiv.org/abs/2606.03097) (preprint)
 - [Bridging the Last Mile of Time Series Forecasting with LLM Agents](https://arxiv.org/abs/2606.02497) (preprint)
 - [ROAR: Retrieval Opportunity-Aware Refinement for Zero-Shot Time Series Forecasting](https://arxiv.org/abs/2605.24911) (preprint)
 - [RareCP: Regime-Aware Retrieval for Efficient Conformal Prediction](https://arxiv.org/abs/2605.08857) (preprint)
 - [Channel-wise Retrieval for Multivariate Time Series Forecasting](https://arxiv.org/abs/2604.05543) (ICASSP 2026)
+- [FoRSe: A Retrieval-Augmented Framework for Time Series Forecasting](https://doi.org/10.1109/ICASSP55912.2026.11463579) (ICASSP 2026)
 - [Retrieval Augmented Time Series Forecasting](https://arxiv.org/abs/2411.08249) (AISTATS 2026)
 - [Enhancing Multivariate Time Series Forecasting with Global Temporal Retrieval](https://proceedings.iclr.cc/paper_files/paper/2026/hash/7a3284ce53f620d244fca0c79d94c478-Abstract-Conference.html) (ICLR 2026)
 - [ResCP: Reservoir Conformal Prediction for Time Series Forecasting](https://arxiv.org/abs/2510.05060) (ICLR 2026)
@@ -78,7 +105,6 @@ Dates retain their verified precision: month/year-only records follow fully date
 - [Learning from History: A Retrieval-Augmented Framework for Spatiotemporal Prediction](https://arxiv.org/abs/2510.24049) (preprint)
 - [Retrieval-Augmented Framework with Adaptive Gating for Time Series Forecasting](https://doi.org/10.1007/s12204-025-2847-z) (Journal of Shanghai Jiaotong University (Science) 2025)
 - [TimeRAF: Retrieval-Augmented Foundation model for Zero-shot Time Series Forecasting](https://arxiv.org/abs/2412.20810) (IEEE TKDE)
-- [STRATA-TS: Selective Knowledge Transfer for Urban Time Series Forecasting with Retrieval-Guided Reasoning](https://arxiv.org/abs/2508.18635) (preprint)
 - [Retrieval-Augmented Forecasting with Tabular Time Series Data](https://aclanthology.org/2025.trl-1.16/) (ACL 2025 TRL Workshop)
 - [Retrieval Augmented Time Series Forecasting](https://arxiv.org/abs/2505.04163) (ICML 2025)
 - [Time-VLM: Exploring Multimodal Vision-Language Models for Augmented Time Series Forecasting](https://arxiv.org/abs/2502.04395v2) (ICML 2025)
@@ -226,18 +252,30 @@ Dates retain their verified precision: month/year-only records follow fully date
 
 ## List by Category
 
-This focused view contains 51 methods. The other 76 year-list records comprise 52 related/background records, 16 provisional or unresolved records, 5 inherited exclusions and 3 inherited method mappings outside the focused count. They remain in the year list; absence here does not mean every candidate was rejected.
+The two categories cover 74 methods. The other 79 records in the year index include standalone analogue predictors, retrieval for training-data selection, benchmarks, background papers and unresolved candidates.
 
 - **Retrieval as Input Augmentation:** retrieved examples or context are supplied to the forecaster before or during prediction.
 - **Retrieval as Post-hoc Refinement:** retrieved evidence corrects or combines base forecasts, including output fusion; it is not necessarily training-free.
 
 The two-category taxonomy follows [SARAF](https://arxiv.org/abs/2606.04135).
 
-### Retrieval as Input Augmentation (34 methods)
+### Retrieval as Input Augmentation (49 methods)
 
 #### 2026
 
+- [PARA-PV: Physics-Aware Retrieval-Augmented PV Prediction Based on Frozen Foundation Model and Distribution Shift Correction](https://doi.org/10.1016/j.energy.2026.143011) (Energy 368, 143011, issue dated 15 Dec 2026) — Historical patches and analogue trajectories matched by curve shape, power level and operating state supply the base PV forecast before calibration. [Code](https://github.com/weican1103/PARA-PV)
 - [SteerCast: Retrieval-Based Latent Steering for Decoder-Only Time Series Forecasting](https://arxiv.org/abs/2610.11229) (NeurIPS 2026)
+- [Can Time Series Foundation Models Serve as Surrogates for Power Systems Dynamic Simulation?](https://arxiv.org/abs/2611.10247) (NeurIPS 2026 Foundation Models for Temporal Systems Workshop) — The in-context variant selects past simulations by similarity of their covariate embeddings and supplies them as examples for predicting a post-disturbance trajectory.
+- [GlucoAgent: Personalized Glucose Forecasting from Multimodal Personal Context](https://arxiv.org/abs/2611.04126) (NeurIPS 2026 GenAI for Health Workshop, as listed by the authors) — For some post-meal forecasts, the agent consults the participant’s responses to comparable past meals when choosing how to predict their glucose trajectory.
+- [Reliable Operation of Converter Valves in Flexible DC Systems Enabled by Ultra-Short-Term PV Power Forecasting with Intraday Real-Time Correction and Multi-Model Feature Fusion](https://www.mdpi.com/2079-9292/15/22/5198) (Electronics, 10 Nov 2026) — Irradiance measured on similar days corrects the weather covariate supplied to the PV power forecaster.
+- [Retrieve the Right Signal: Decomposition-Guided Retrieval-Augmented Forecasting for Financial Markets](https://doi.org/10.1145/3799682.3841004) (CIKM 2026) — RISE supplies retrieved detrended futures as context tokens and also fuses a retrieval-based forecast at the output. It is counted once here.
+- [Decouple to Reuse: Fine-Grained Knowledge Augmentation for Time Series Foundation Models](https://arxiv.org/abs/2611.05993) (preprint, 4 Nov 2026) — TimeFKA retrieves trend and seasonal patterns from separate codebooks and fuses them with the frozen model’s hidden representations before decoding. [Code](https://github.com/yuppielqx/TSFM-Component-Token-Adapter)
+- [RAG-CSI: Global Local Retrieval via Joint State and Dynamics Matching for CSI Prediction](https://arxiv.org/abs/2610.36881) (preprint, 27 Oct 2026) — The wireless channel forecaster attends to historical channel sequences selected from global and scene-specific stores.
+- [Multi-feature temporal sequence modeling for improved subway passenger flow prediction](https://doi.org/10.1007/s40747-026-02505-y) (Complex & Intelligent Systems, 26 Oct 2026) — The encoder uses passenger-flow sequences from historical days matched by time, weather and calendar conditions.
+- [Beyond Similarity: Coverage-Aware Prompt Selection for Time Series Forecasting with LLMs](https://aclanthology.org/2026.findings-emnlp.1491/) (Findings of EMNLP 2026) — CASP-LLM retrieves learned prompt vectors for the forecasting model. A coverage regularizer discourages repeatedly selecting the same prompts. [Code](https://github.com/dadaeun09/CASP-LLM)
+- [Point-in-Time Financial RAG with Frozen LLM Readers and Market-Feedback Adaptive Retrieval](https://aclanthology.org/2026.emnlp-industry.186/) (EMNLP 2026 Industry Track) — A frozen reader uses retrieved news and filing passages to predict residual-return classes at several horizons. Realized returns update the source rankings.
+- [Daily Parking Demand Interval Forecasting with Similar-Day Matching Diagnostics](https://www.mdpi.com/2076-3417/16/20/10440) (Applied Sciences, 21 Oct 2026) — Alongside a similar-day point forecast, the interval model takes matching-quality and neighbor-demand diagnostics as covariates.
+- [M²Net: Unifying Scale-Specific Structures and Prototype Decomposition for Spatial-Temporal Forecasting](https://arxiv.org/abs/2610.24516) (preprint, 17 Oct 2026) — Each node retrieves a weighted pattern from a shared prototype bank. The model subtracts that pattern from the node representation before forecasting. [Code](https://github.com/Jlu-zcy/M2Net)
 - [TIMBRE: Teaching Time Series Forecasters to Read, Remember, and Reconcile](https://arxiv.org/abs/2610.04795) (preprint)
 - [SEER: Self-Evolving Event Reasoning and Retrieval for Time Series Forecasting](https://arxiv.org/abs/2610.04109) (preprint)
 - [GlyRAG: Context-Aware Retrieval-Augmented Framework for Blood Glucose Forecasting](https://arxiv.org/abs/2601.05353) (IEEE Journal of Biomedical and Health Informatics, online ahead of print)
@@ -246,9 +284,12 @@ The two-category taxonomy follows [SARAF](https://arxiv.org/abs/2606.04135).
 - [Not All Retrievals are Useful: Cross-Attention for Input-Aware RAG in Time Series Forecasting](https://arxiv.org/abs/2603.14709) (KDD 2026 MileTS Workshop)
 - [Align-RAG: Alignment Is All You Need for TSFM In-Context Learning](https://arxiv.org/abs/2608.05571) (preprint)
 - [TS-RAG: Retrieval Augmented Generation for Time Series Forecasting](https://arxiv.org/abs/2608.06223) (preprint)
+- [Beyond Extrapolation: Knowledge Utilization Paradigm with Bidirectional Inspiration for Time Series Forecasting](https://proceedings.mlr.press/v306/chong26c.html) (ICML 2026) — KUP-BI uses matching training histories to estimate how the series might continue beyond the forecast horizon, then fuses that estimate with the input features. [Code](https://github.com/yihannnnn/KUP-BI)
 - [MemCast: Memory-Driven Time Series Forecasting with Experience-Conditioned Reasoning](https://arxiv.org/abs/2602.03164) (ICML 2026)
 - [TabPFN-TSRA: Retrieval-Augmented TabPFN for Time-Series Forecasting](https://openreview.net/forum?id=pGK4RbJTC9) (ICML 2026 FMSD Workshop)
+- [Cross-city Time Series Forecasting with Retrieval-Augmented Large Language Models](https://doi.org/10.1145/3774904.3792074) (The Web Conference 2026) — xRAG4TS turns selected patterns and documents from source cities into structured prompts for the target-city forecast.
 - [From Long News to Accurate Forecast: Importance-Aware Fusion and PRM-Guided Reflection for Time Series Forecasting](https://arxiv.org/abs/2606.03097) (preprint)
+- [FoRSe: A Retrieval-Augmented Framework for Time Series Forecasting](https://doi.org/10.1109/ICASSP55912.2026.11463579) (ICASSP 2026) — A two-stage retriever selects auxiliary sequences that are concatenated with the query for a frozen language model.
 - [Retrieval Augmented Time Series Forecasting](https://arxiv.org/abs/2411.08249) (AISTATS 2026)
 - [Unlocking the Value of Text: Event-Driven Reasoning and Multi-Level Alignment for Time Series Forecasting](https://arxiv.org/abs/2603.15452) (ICLR 2026)
 - [Retrieval-Augmented Generation with Covariate Time Series](https://arxiv.org/abs/2603.04951) (preprint)
@@ -287,17 +328,26 @@ The two-category taxonomy follows [SARAF](https://arxiv.org/abs/2606.04135).
 
 - [A Memory-Network Based Solution for Multivariate Time-Series Forecasting](https://arxiv.org/abs/1809.02105) (preprint)
 
-### Retrieval as Post-hoc Refinement (17 methods)
+### Retrieval as Post-hoc Refinement (25 methods)
 
 #### 2026
 
-- [Retrieval Is Not Enough: Refreshing Memory for Frozen Time-Series Forecasters](https://arxiv.org/abs/2610.07834) (preprint)
+- [When to Trust Memory: Retrieval-Guided Probabilistic Spatiotemporal Forecasting under Distribution Shift](https://arxiv.org/abs/2610.32329) (NeurIPS 2026) — A gate blends a forecast derived from retrieved spatiotemporal trajectories with a parametric forecast according to the estimated distribution shift. [Code](https://github.com/LvHaochenBANG/REMIND)
+- [Learning Day-Ahead Electricity Price Dynamics in Renewable Power Systems: A Time-Adaptive Segmented Multi-Model Ensemble Forecasting Approach](https://www.mdpi.com/2071-1050/18/22/11720) (Sustainability, 18 Nov 2026) — An optional correction blends the ensemble price forecast with observed prices from the most similar historical operating states.
+- [FARE: Factor-Aware Retrieval with Error-Guided Fusion for Retail Forecasting](https://arxiv.org/abs/2610.40160) (preprint, 29 Oct 2026) — An error-guided gate corrects a sales forecast using historical weeks matched by promotions, calendar factors and demand shape. [Code](https://github.com/HousonGu/FARE)
+- [A Model-Agnostic Correction Framework for Short-Term Building Load Forecasting](https://arxiv.org/abs/2610.31959) (preprint, 22 Oct 2026) — WeL-RAC corrects a base load forecast using observed continuations from cases matched on recent load and weather over the forecast horizon.
+- [ECHO: Correcting Time Series Foundation Model Forecasts with Historical Analogues and Errors](https://arxiv.org/abs/2610.16433) (preprint, 12 Oct 2026) — A black-box forecaster’s output is corrected using two signals, the continuations of retrieved analogues and the model’s recent forecast errors.
+- [FreshCast: Timely and Complementary Retrieval for Frozen Time Series Forecasters](https://arxiv.org/abs/2610.07834) (preprint)
 - [GRAM: Correcting Frozen Time-Series Foundation Models via Graph-Retrieved Amplitude Memory](https://arxiv.org/abs/2610.04827) (preprint)
 - [Dual-Context Analog Retrieval for Time Series Forecasting](https://arxiv.org/abs/2610.03491) (preprint)
+- [STRAF: A retrieval-augmented framework for time series forecasting with adaptive historical fusion](https://doi.org/10.1016/j.neucom.2026.135443) (Neurocomputing, online Oct 2026, Jan 2027 issue) — STRAF retrieves historical patterns across trend and seasonal views and adds a reliability-weighted retrieval prediction to its linear baseline. [Code](https://github.com/yu-kaiming/STRAF)
 - [RACE: Residual-Aware Test-Time Adaptation for Neighbor-Rich Time-Series Foundation Model Forecasting](https://arxiv.org/abs/2610.00405) (preprint)
+- [Knowledge-Graph-Augmented Chronos-2 for HEC-RAS Surrogate Forecasting](https://arxiv.org/abs/2609.21381) (preprint, 18 Sep 2026) — A hydraulic project graph guides retrieval of historical water-level trajectories, and the analogue forecast is combined with a frozen Chronos-2 prediction.
+- [DeCyReM: De-Cycled Residual Memory with Utility-Gated Retrieval for Traffic Flow Forecasting](https://www.mdpi.com/2227-7390/14/17/3207) (Mathematics, 4 Sep 2026) — Each traffic sensor has a memory of historical base-model errors. A gate controls how much the retrieved errors adjust its forecast.
 - [RATL: Learning from Retrieved Residuals for Robust Multivariate Time-Series Forecasting](https://arxiv.org/abs/2609.03937) (preprint)
+- [State-Aware Dynamic Retrieval and Persistence-Anchored Expert Fusion for Very Short-Term Wind Power Forecasting Without Numerical Weather Prediction](https://www.mdpi.com/2227-7390/14/17/3076) (Mathematics, 27 Aug 2026) — A state-dependent gate combines the retrieved analogue trajectory with persistence and neural residual forecasts.
 - [Stationarity-Aware Retrieval-Augmented Time Series Forecasting](https://arxiv.org/abs/2606.04135) (KDD 2026)
-- [CastFSR: A Fast--Slow--Reflect Agentic Reasoning Framework for Context-Aware Time Series Forecasting](https://arxiv.org/abs/2608.03031) (preprint)
+- [CastFSR: Fast–Slow–Reflect Agentic Reasoning for Context-Aware Time Series Forecasting](https://arxiv.org/abs/2608.03031) (preprint)
 - [Semantics-Enhanced Retrieval-Augmented Time Series Forecasting](https://arxiv.org/abs/2606.14941) (ICML 2026 AI Forecasting Workshop)
 - [Spectral Retrieval-Augmented Time-Series Forecasting](https://arxiv.org/abs/2606.19412) (preprint)
 - [Bridging the Last Mile of Time Series Forecasting with LLM Agents](https://arxiv.org/abs/2606.02497) (preprint)
@@ -309,9 +359,7 @@ The two-category taxonomy follows [SARAF](https://arxiv.org/abs/2606.04135).
 #### 2025
 
 - [Improving Time Series Forecasting via Instance-aware Post-hoc Revision](https://arxiv.org/abs/2505.23583) (NeurIPS 2025)
-- [STRATA-TS: Selective Knowledge Transfer for Urban Time Series Forecasting with Retrieval-Guided Reasoning](https://arxiv.org/abs/2508.18635) (preprint)
 
 #### 2024
 
 - [Nearest Neighbor Multivariate Time Series Forecasting](https://arxiv.org/abs/2505.11625) (IEEE TNNLS)
-
